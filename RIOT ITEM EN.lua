@@ -36,7 +36,7 @@ function SUN()
 end
 
 function exit()
-    t = gg.makeRequest('--').content if t then pcall(load(t)) end
+    t = gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/RIOT-ITEM-PY-LUA/main/RIOT%20ITEM%20Login.lua').content if t then pcall(load(t)) end
 end
 
 while true do
