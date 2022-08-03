@@ -1,4 +1,4 @@
-function TH()
+function EN()
     ss = gg.choice({
         'Weapon',
         'Body Fashion',
@@ -49,6 +49,6 @@ end
 while true do
     if gg.isVisible(true) then
       gg.setVisible(false)
-      TH()
+      EN()
     end
 end
