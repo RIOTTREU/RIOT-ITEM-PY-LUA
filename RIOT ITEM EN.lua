@@ -18,6 +18,9 @@ function TH()
             SUN()
         end
         if ss == 4 then
+            SRR
+        end
+        if ss == 5 then
             exit()
         end
     end
@@ -32,6 +35,10 @@ function STN()
 end
 
 function SUN()
+    t = gg.makeRequest('--').content if t then pcall(load(t)) end
+end
+
+function SRR()
     t = gg.makeRequest('--').content if t then pcall(load(t)) end
 end
 
