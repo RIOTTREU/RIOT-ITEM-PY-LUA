@@ -12,7 +12,7 @@ function HOME()
         if py == 2 then EN()
         end
         if py == 3 then
-            EXIT()
+            os.exit()
         end
     end
 end
@@ -32,11 +32,6 @@ function EN()
   t = gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/RIOT-ITEM-PY-LUA/main/RIOT%20ITEM%20EN.lua').content if t then pcall(load(t)) end
 end
 
-function EXIT()
-  gg.skipRestoreState()
-  gg.setVisible(true)
-  os.exit()
-end
 while true do
   if gg.isVisible(true) then
     gg.setVisible(false)
