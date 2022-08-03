@@ -25,11 +25,11 @@ end
 --จบการทำงาน
 
 function TH()
-  t = gg.makeRequest('--').content if t then pcall(load(t)) end
+  t = gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/RIOT-ITEM-PY-LUA/main/RIOT%20ITEM%20TH.lua').content if t then pcall(load(t)) end
 end
 
 function EN()
-  t = gg.makeRequest('--').content if t then pcall(load(t)) end
+  t = gg.makeRequest('https://raw.githubusercontent.com/RIOTTREU/RIOT-ITEM-PY-LUA/main/RIOT%20ITEM%20EN.lua').content if t then pcall(load(t)) end
 end
 
 function EXIT()
